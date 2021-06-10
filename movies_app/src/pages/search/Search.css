@@ -1,0 +1,13 @@
+.makeStyles-search-4 {
+    position: fixed;
+    z-index:100;
+    top: 30px;
+    left:50%;
+    transform: translate(-50%);
+    color:white;
+    width: 40%;
+  }
+  .search:focus {
+    background: white;
+    color:black;
+  }

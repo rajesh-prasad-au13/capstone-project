@@ -1,0 +1,45 @@
+.card {
+  width: 250px;
+  height: 500px;
+  background: #221154;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin:15px;
+  color: white;
+  position: relative;
+}
+.card_img {
+    position: absolute;
+    top: 0;
+  width: 100%;
+  height: 80%;
+  border: 10px solid black;
+  object-fit: cover;
+}
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_details{
+    position: absolute;
+    bottom: 10px;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.card_details div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
